@@ -49,8 +49,9 @@
   
   .game-card-title {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+    font-family: "Roboto", sans-serif;;
   }
   .game-card-rating .star{
     color:#00B212;
@@ -76,7 +77,6 @@
     background-color: #ffffff;
     color: #00B212;
     transition: 0.6s
-
 }
 
   

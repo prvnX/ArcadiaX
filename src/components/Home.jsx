@@ -1,7 +1,6 @@
 import React from "react";
 import '../css/Home.css'
 import Banner from '../components/Banner/Banner'
-import Gamecard from '../components/Gamecard/Gamecard'
 import Gamegrid from "./Gamegrid/Gamegrid";
 function Home(){
     return(

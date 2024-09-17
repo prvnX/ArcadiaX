@@ -20,14 +20,13 @@ const futureDay = String(futureDate.getDate()).padStart(2, '0');
 const endDateFuture = `${futureYear}-${futureMonth}-${futureDay}`;
 
 
-const Gamegrid = ({ type }) => {
+const Gamegrid = ({ type ,id=''}) => {
     const [games, setGames] = useState([]);
     const [page, setPage] = useState(1); // Initialize with page 1
     const [loading, setLoading] = useState(false);
       
     let heading = 'To be Released Games'; // Default heading
     let apiurl = `https://api.rawg.io/api/games?page_size=10&page=${page}&key=${apiKey}`;
-  
     if (type === 'popular') {
       heading = '★ Popular Games';
     } else if (type === 'rated') {
@@ -38,8 +37,11 @@ const Gamegrid = ({ type }) => {
       heading = 'Upcoming Games';
     }
 
+  
+
     // API URL based on type and page
     const getApiUrl = () => {
+    if(id===''){
       if (type === 'popular') {
         return `https://api.rawg.io/api/games?page_size=10&ordering=-popularity&page=${page}&key=${apiKey}`;
       } else if (type === 'rated') {
@@ -50,6 +52,19 @@ const Gamegrid = ({ type }) => {
       } else if (type === 'torelease') {
         return `https://api.rawg.io/api/games?ordering=-rating&dates=${currentDate},${endDateFuture}&page_size=10&page=${page}&key=${apiKey}`;
       }
+    }
+    else{
+        if (type === 'popular') {
+            return `https://api.rawg.io/api/games?page_size=10&genres=${id}&ordering=-popularity&page=${page}&key=${apiKey}`;
+        } else if (type === 'rated') {
+            return `https://api.rawg.io/api/games?page_size=10&genres=${id}&ordering=-rating&page=${page}&key=${apiKey}`;
+        }else if (type === 'released') {
+            const startDate = `${year}-01-01`;
+            return `https://api.rawg.io/api/games?page_size=10&genres=${id}&dates=${startDate},${currentDate}&ordering=-popularity&page=${page}&key=${apiKey}`;
+        }else if (type === 'torelease') {
+            return `https://api.rawg.io/api/games?page_size=10&genres=${id}&dates=${currentDate},${endDateFuture}&ordering=-popularity&page=${page}&key=${apiKey}`;
+        }
+    }
       return apiurl;
     };
 
@@ -66,11 +81,10 @@ const Gamegrid = ({ type }) => {
       };
       fetchGames();
 
-    }, [page, type]); // Only fetch when `page` or `type` changes
+    }, [page, type]); 
   
-    // Load more games when the user clicks the button
     const loadMoreGames = () => {
-      setPage(prevPage => prevPage + 1); // Increment the page number
+      setPage(prevPage => prevPage + 1); 
     };
   
     return (
