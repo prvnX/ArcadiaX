@@ -1,0 +1,13 @@
+.home{
+    margin: 10px 40px;
+}
+.hrrule{
+    width:1200px;
+    margin:40px auto;
+    border: solid #bbbbbb56;
+    height: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    
+    
+}

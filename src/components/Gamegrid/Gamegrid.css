@@ -1,0 +1,77 @@
+/* GameGrid.css */
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 75px;
+    padding: 20px;
+    
+  }
+  
+  .game-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: solid 1px rgb(255, 255, 255);
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .game-card-title {
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .game-grid-heading{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  font-family: "SUSE", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+}
+.load{
+    text-align: center;
+    margin: auto;
+}
+.load-more-btn{
+    margin: auto;
+    background-color: #282c34;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+    font-weight: 500;
+    font-family:'Suse','serif';
+    border-radius: 10px;
+    text-align: center;
+    color:#00B212;
+    border: solid 1px #00B212;
+    width:150px
+  }
+.load-more-btn:hover{
+    cursor: pointer;
+    background-color: #00B212;
+    color: #ffffff;
+    border: solid 1px #00B212;
+    transform: scale3d(1.1,1.1,1.1);
+    transition: 0.7s
+    
+
+}

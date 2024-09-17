@@ -1,0 +1,21 @@
+.banner{
+    height: 400px;
+    margin-top: 0;
+}
+.banner-slider img{
+    width: 1300px;
+    height: 400px;
+    border-radius: 55px;
+    margin:auto;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+      
+
+.banner-slider img:hover{
+    cursor: pointer;
+}
+.slick-arrow{
+    visibility: hidden;
+}

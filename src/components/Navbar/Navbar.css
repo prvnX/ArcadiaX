@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #16181c;
+    color: white;
+    border-bottom: solid 1px #757575;
+    padding: 0px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .navbar .logoimg{
+    width: 150px;
+    margin: 0;
+    
+  }
+    
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .navbar .logo a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  
+  .navbar .categories select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: #282c34;
+    color:#00B212;
+    border:solid 1px #00B212 ;
+  }
+  
+  /* .options{
+    background-color: aliceblue;
+  } */
+  
