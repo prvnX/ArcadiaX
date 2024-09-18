@@ -11,3 +11,19 @@
     
     
 }
+@media (max-width: 767px) {
+    .home{
+        margin: 5px auto;
+        display: block;
+    }
+    .home .hrrule{
+        width:300px;
+        margin:20px auto;
+        border: solid #ffffff15;
+        height: 0px;
+        border-top-width: 1px;
+        border-bottom-width: 0px;
+        
+    }
+    
+}

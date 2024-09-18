@@ -94,4 +94,29 @@
     text-align: center;
     margin: auto;
 }
+@media (max-width: 768px) {
+    .search-container {
+      width: 100%;
+    }
+    .search-container input {
+      position: relative;
+      right: 120px;
+    }
+    .search-container input {
+      width: 150px;;
+    }
+    .search-icon {
+      display: none;
+        }
+    .search-container input{
+      margin-left: 0px;
+    }
+    .dropdown {
+      width: 200px;
+      position: absolute;
+      right: 100px;
+      top:40px
+    }
+
   
+}

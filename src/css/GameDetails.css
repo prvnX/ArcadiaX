@@ -120,3 +120,31 @@
     border-radius: 10px;
     margin: 10px;
 }
+@media (max-width: 768px) {
+    .game-details img{
+        width: 100%;
+
+    }
+    .game-details-heading h1{
+        font-size: 32px;
+        
+    }
+    .game-details .hrrule{
+        width: 100%;
+    }
+    .game-details .more-details{
+        width: 100%;
+    }
+    .game-details .more-details-long{
+        width: 100%;
+    }
+    .game-details .game-details-heading  .description{
+        width: 100%;
+    }
+    .game-details .ss-image{
+        width: 100%;
+    }
+    .game-details-video iframe{
+        width: 100%;
+    }
+}

@@ -54,4 +54,18 @@
     background-color: #444;
     cursor: pointer;
   }
-  
+  @media (max-width: 768px) {
+    .custom-dropdown {
+      width: 150px;
+      margin:auto;
+    }
+    .dropdown-trigger{
+      width: 100px;
+      margin-left:-80px;
+    }
+    .dropdown-options{
+      width: 120px;
+      margin-left:-80px;
+    }
+    
+  }

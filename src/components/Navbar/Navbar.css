@@ -105,9 +105,26 @@
   .option:hover {
     background-color: #444;
   }
-  
-  /* Show dropdown when trigger is clicked */
-  .custom-select.open .options {
+    .custom-select.open .options {
     display: block;
   }
   
+  @media (max-width: 767px) {
+    .navbar .logoimg{
+      width: 100px;
+      height: 50px;
+      margin: 0;
+      display: block;
+      position: relative;
+      bottom:40px;
+      left: 100px;
+        
+    }
+    .navbar .logo {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+    .navbar{
+      height: 120px;
+    }
+  }

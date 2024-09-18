@@ -19,3 +19,15 @@
 .slick-arrow{
     visibility: hidden;
 }
+@media (max-width:768px) {
+    .banner-slider img{
+        width: 100%;
+        height: 300px;
+        border-radius: 25px;
+    }
+    .banner{
+        height: 300px;
+    }
+
+    
+}
