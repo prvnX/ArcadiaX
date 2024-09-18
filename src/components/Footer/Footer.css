@@ -4,7 +4,70 @@
     background-color: #16181c;
     color: white;
     text-align: center;
-    height: 150px;
-    padding-top:100px;
+    height: 250px;
+    padding-top:30px;
     border-radius:10px;
+}
+.Footer img{
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+.footer-contact{
+    display: block;
+}
+.Footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 40px;
+    font-family: "roboto", sans-serif;
+}
+.Footer a:hover{
+    color: #00B212;
+    font-size: 22px;
+}
+.Footer .bottom-txt{
+    margin-top: 0px;
+    font-size: 15px;
+    color:#737373;
+    font-family: "roboto", sans-serif;
+}
+.Footer .bottom-txt2{
+    margin-top: 0px;
+    font-size: 15px;
+    color:#737373;
+    font-family: "roboto", sans-serif;
+}
+.Footer button{
+    margin: auto;
+    background:transparent;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+    font-weight: 500;
+    font-family:'Suse','serif';
+    border-radius: 10px;
+    text-align: center;
+    color:#00B212;
+    border: solid 1px #00B212;
+    width:150px;
+    margin-bottom: 10px;
+  }
+.Footer button:hover{
+    cursor: pointer;
+    background-color: #00B212;
+    color: #ffffff;
+    border: solid 1px #00B212;
+    transition: 0.7s
+}
+.Footer .hrrule{
+    width:400px;
+    margin:20px auto;
+    border: solid #ffffff15;
+    height: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    
 }

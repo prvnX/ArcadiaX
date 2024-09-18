@@ -1,0 +1,122 @@
+.game-details{
+    margin: 10px 40px;
+    text-align: center;
+
+}
+.game-details-heading{
+    text-align: center;
+}
+.game-details-heading h1{
+    text-align: center;
+    font-family:'Suse','serif';
+    font-size: 54px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 5px 10px #000000;
+    
+}
+
+.game-details img{
+    display: inline;
+    width: 50%;
+    margin: auto;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #000000;
+}
+.game-details .hrrule{
+    width:1000px;
+    margin:40px auto;
+    border: solid #bbbbbb56;
+    height: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 0px; 
+}
+.game-details .loading{
+    text-align: center;
+    }
+.game-details .subheading{
+    text-align: center;
+    font-family:'roboto','serif';
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    text-shadow: 0px 5px 10px #000000;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+.game-details .details{
+    text-align: center;
+    font-family:'roboto','serif';
+    font-size: 20px;
+    color:#00B212;
+    text-shadow: 0px 5px 10px #000000;
+}
+.game-details .details .stars{
+    display: block;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.game-details .game-details-heading  .description{
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+    font-weight: 200;
+    font-size: 16px;
+    text-shadow: none;
+}
+.game-details p{
+    font-family:'roboto','serif';
+    font-size: 20px;
+    color:white;
+    text-shadow: 0px 5px 10px #000000;
+
+}
+.game-details .more-details{
+    width: 1000px;
+    margin: 15px auto;
+    font-weight: 200;
+    font-size: 20px;
+    text-shadow: none;
+}
+.game-details .more-details-long{
+    width: 1000px;
+    margin: 15px auto;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: none;
+}
+.game-details button{
+    margin: auto;
+    background-color: #282c34;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+    font-weight: 500;
+    font-family:'Suse','serif';
+    border-radius: 10px;
+    text-align: center;
+    color:#00B212;
+    border: solid 1px #00B212;
+    width:150px
+  }
+.game-details button:hover{
+    cursor: pointer;
+    background-color: #00B212;
+    color: #ffffff;
+    border: solid 1px #00B212;
+    transform: scale3d(1.1,1.1,1.1);
+    transition: 0.7s
+}
+.game-details .ss-image{
+    width: 70%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 5px #0000009b;
+}
+
+.game-details-video iframe{
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 10px;
+}
