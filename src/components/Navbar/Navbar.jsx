@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <NavLink to="/"><img src='/logo.png' className="logoimg" /></NavLink>
+        <NavLink to="/"><img src='/logo.png' className="logoimg" alt='logo' /></NavLink>
       </div>
       
       <div className="search-bar">
