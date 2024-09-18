@@ -34,7 +34,7 @@ const Category = () => {
 
   const handleCategorySelect = (category) => {
     setIsOpen(false); 
-    if(category.id==-1){
+    if(category.id===-1){
       navigate('/');
     }else{
       navigate('/category', { state: { categoryId: category.id } }); 
