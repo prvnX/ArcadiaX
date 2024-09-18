@@ -5,7 +5,7 @@ function Footer(){
         <div className="Footer">
         <img src='/logo.png' alt='logo' />
         <div className="footer-contact">
-       <a href="mailto:support@example.com"><button>Contact Us</button></a> 
+       <a href="mailto:prvnmadushan@gmail.com"><button>Contact Us</button></a> 
      
       </div>
       <hr className="hrrule" />
